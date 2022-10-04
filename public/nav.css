@@ -1,0 +1,81 @@
+nav{
+    background-color: #fff;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    z-index: 2;
+    padding: 30px 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+nav .title span{
+    font-size: 1.7em;
+    font-weight: 550;
+    cursor: pointer;
+}
+nav .title span:nth-child(1){
+    color: #432c99;
+}
+nav .title span:nth-child(2){
+    color: #f3a358;
+}
+nav .options .option{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #c0bcd2;
+}
+nav .options .option lord-icon{
+    width: 40px;
+    height:40px;
+}
+nav .options .option a{
+    margin-left: 20px;
+    font-size:20px;
+    color: #c0bcd2;
+    transition: .2s linear;
+}
+nav .options .option a:hover{
+    color: #432c99;
+    font-size: 25px;
+}
+nav .bowl{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    transform: translate(-15px,480px);
+}
+
+nav .upload-new{
+    /* fb9300 */
+    padding: 20px;
+    background-color: #fb9300;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+nav .upload-new p{
+    font-size:20px;
+    margin-top: 60px;
+}
+
+
+nav .upload-new .upl-btn{
+    width: 100%;
+    background-color: #fff;
+    color: #fb9300;
+    border-radius: 35px;
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+nav .upload-new .upl-btn a{
+    color: #fb9300;
+}

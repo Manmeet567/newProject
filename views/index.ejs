@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel="stylesheet" href="/recipeCard.css">
+    </head>
+<body>
+    <%- include('./partials/nav.ejs') %>
+    <!-- Navbar Component Ended -->
+
+    <div class="main">
+        <div class="home-content">
+            <header>
+                <div class="search">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/pvbutfdk.json"
+                        trigger="hover"
+                        colors="primary:#432c99"
+                        state="hover">
+                    </lord-icon>
+                    <form spellcheck="false">
+                        <input type="text" placeholder="Search by food name">
+                    </form>
+                </div>
+        
+                <div class="filter">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/ocvcrrch.json"
+                        colors="primary:#432c99"
+                        trigger="hover">
+                    </lord-icon>
+                    <p>Filter</p>
+                </div>
+            </header>
+
+            <div class="banner">
+                <div class="banner-text">
+                    <h1>Add Your own recipe</h1>
+                    <p>Upload your own home-made recipe, and share it with other members of our community</p>
+                    <div class="upl-btn">
+                        <a href="/upload-Recipe">Upload Now</a>
+                    </div>
+                </div>
+                <img src="/bannerArt.png" alt="Banner Art">
+            </div>
+
+            <div class="r-box">
+                
+            </div>
+        </div>
+    </div>
+
+    <%- include('./partials/nav2.ejs') %>
+    <!-- Scripts here -->
+    <%- include('./partials/scripts.ejs') %>
+</body>
+</html>
